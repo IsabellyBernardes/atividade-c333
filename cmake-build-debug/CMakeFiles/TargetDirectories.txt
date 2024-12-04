@@ -1,0 +1,3 @@
+C:/Users/isabe/CLionProjects/pratica333/cmake-build-debug/CMakeFiles/pratica333.dir
+C:/Users/isabe/CLionProjects/pratica333/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/isabe/CLionProjects/pratica333/cmake-build-debug/CMakeFiles/rebuild_cache.dir
