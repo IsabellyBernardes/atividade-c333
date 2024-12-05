@@ -21,29 +21,32 @@ int main() {
     //cout << "Maximo de \"strA\" e \"strB\": " << maximo(strA, strB) << endl;
 
     //Arranjo<int>
+    cout << "Array de inteiros:" << endl;
     Arranjo<int> arr(10);
     arr.set(4, 5);
     arr.set(7, 15);
     arr.set(8, 22);
-
-    cout << "Array de inteiros:" << endl;
     arr.exibir();
 
+    
+
     //Arranjo<float>
-    Arranjo<float> arrf(5);
+    Arranjo<float> arrf(5); //defini
+    cout << "Array de float:" << endl;
     arrf.set(0, 5.5);
     arrf.set(1, 10.1);
     arrf.set(2, 15.0);
-    ;
+    arrf.exibir();
 
-    Arranjo<Aluno> turma(3);
-
+    Arranjo<Aluno> turma(3); //aqui eu defino o tamanho
+    cout << "Exibindo turma:" << endl;
     turma.set(0, Aluno("Joao", "1234"));
     turma.set(1, Aluno("Maria", "5235"));
     turma.set(2, Aluno("Jose", "2412"));
 
 
     turma.exibir();
+    
     try {
         cout << "Elemento fora do limite: " << arr.get(15) << endl << endl;
     } catch (const out_of_range &e) {
